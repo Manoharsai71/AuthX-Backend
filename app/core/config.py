@@ -17,9 +17,9 @@ class Settings(BaseSettings):
     REFRESH_TOKEN_EXPIRE_DAYS: int = 7
     
     # Email Configuration
-    MAIL_USERNAME: str = "manoharsaiambati@gmail.com"
-    MAIL_PASSWORD: str = "pyuwvgepzkinuurw"  # App Password
-    MAIL_FROM: str = "manoharsaiambati@gmail.com"
+    MAIL_USERNAME: str = "mail"
+    MAIL_PASSWORD: str = "password"  # App Password
+    MAIL_FROM: str = "mail"
     MAIL_PORT: int = 587
     MAIL_SERVER: str = "smtp.gmail.com"
     MAIL_FROM_NAME: str = "AuthX"
